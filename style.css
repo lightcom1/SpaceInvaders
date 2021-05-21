@@ -1,0 +1,35 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	border: solid 1px #ccc;
+	width: 450px;
+	height: 450px;
+}
+
+.grid div {
+	width: 30px;
+	height: 30px;
+}
+
+.shooter {
+	background: url(spaceship.png) center center / cover no-repeat;
+}
+
+.invader {
+	background: url(ufo.png) center center / cover no-repeat;
+	background-size: 90%;
+}
+
+.boom {
+	background: url(explosion.png) center center / cover no-repeat;
+}
+
+.laser {
+	background: url(bullet.png) center center / cover no-repeat;
+	transform: rotate(180deg);
+}
